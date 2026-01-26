@@ -1,0 +1,23 @@
+5 Reasons to choose Golang
+    - Build Time very less
+    - Fast Startup
+    - Performance and Efficiency
+    - Concurrency Model
+    - Static typing and compilation
+
+============================================================
+
+main.go is the main file:
+    package main
+
+    import "fmt"
+
+    func main() {
+	    // entry point
+	    fmt.Println("hello world")
+    }
+
+    - to run this file we need to build it first
+        - go build <filename>  // after this a main.exe file will appear, to run the project just execute the file(main.exe)
+        - ./main          // this executes the project
+        - go run <filepath/filename> // another method to run the code
