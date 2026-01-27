@@ -1,4 +1,8 @@
 # daily_learning
 
 26/01/2026 - Golang_basics
+<<<<<<< HEAD
   - hello_world, simple_values, variables, constraints, for_loop, if_else, switch, arrays, slices
+=======
+  - hello_world, simple_values, variables, constraints, for_loop, if_else, switch, arrays, slices
+>>>>>>> 3ad97bfe9ca51cc18112f5c84f041205ef89389a
