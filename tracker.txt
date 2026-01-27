@@ -1,2 +1,4 @@
 # daily_learning
 
+26/01/2026 - Golang_basics
+  - hello_world, simple_values, variables, constraints, for_loop, if_else, switch, arrays, slices
