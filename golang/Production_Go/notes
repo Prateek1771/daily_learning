@@ -1,0 +1,68 @@
+- Go project will be of 2 types: 
+
+    1. Executable - that we run. we write and and execute in the same device
+    2. Libraries/packages - the are the codes which are imported inro other peoples go projects.
+
+- To initialize the project:
+
+    go mod init <project_name>/github_link_name
+    // Typical look: go mod init github.com/<org_name>/<project>
+
+- To download all the dependencies
+
+    go get <package_name> // for indivisual dependency
+    go mod download // for multiple 
+
+- the project files which are built follow the standard approach and some try to match the folder name also:
+
+    <file_name>.go =>
+
+    package <file_name>
+
+    func <file_name>(){
+        fmt.Print(users)
+    }
+
+- when u run: go build <file_name>.go
+    it builds a <file_name>.exe file which is a executable file containing binary values, and this file is a executable binary.
+
+- standard practice: while naming the packages cannot name them by using capital letters, and name should be as short as possible
+
+- the standard practice we use the end values of the packages:
+    package main
+
+    import (
+    	"fmt"  
+    	"math/rand"
+    ) 
+
+    func main() {
+    	fmt.Println("hello")
+    	fmt.Println("Printing", rand.Intn(10))
+    }
+
+- whenever u initialize the values they immediatly have the values of their "zeroth state", 
+    bool->false
+    int->0
+    string-> print nothing
+
+- Datatypes
+    1. Basic - number, string, bool
+    2. Aggregrat - array(with single datatype)(Homogeneous), Struct(with multiple datatypes)(heterogeneous) 
+    3. Reference datatypes - Pointers, slices, functions, chanels, maps (they dont have data, they just refer the data)
+    4. Interfaces 
+
+- defer fmt.Println("world")
+	fmt.Println("hello") // prints Hello world
+	// defer calculates the values and stores in a stack where its shows the results after the executions of the main function
+
+- // array - static typed
+	var a [2]string
+	// size is the part of array type
+	a[0] = "hello"
+	a[1] = "world"
+	fmt.Println(a[0], a[1])
+	fmt.Println(a)
+
+	primes :=[6]int{2,3,5,7,11,13}
+	fmt.Println(primes)
