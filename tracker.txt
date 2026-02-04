@@ -5,7 +5,7 @@
 27/01/2026 - Golang_basics
   - slices_advanced, maps, range, functions
 
-01/-2/2026 - Change the learning way started refering to the official docs and working on it.
+01/02/2026 - Change the learning way started refering to the official docs and working on it.
   Here are some links
   - https://go.dev/tour/basics/2
   - https://go.dev/doc/effective_go
@@ -14,3 +14,5 @@
   - https://go.dev/wiki/
   - https://google.github.io/styleguide/go/
   - https://github.com/knadh/koanf -- reference to how to write good go
+
+04/02/2026 - Basics covered tommrow onwards project building and understanding
