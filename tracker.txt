@@ -16,3 +16,4 @@
   - https://github.com/knadh/koanf -- reference to how to write good go
 
 04/02/2026 - Basics covered tommrow onwards project building and understanding
+09/02/2026 - Mini Project building
