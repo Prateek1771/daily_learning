@@ -17,3 +17,6 @@
 
 04/02/2026 - Basics covered tommrow onwards project building and understanding
 09/02/2026 - Mini Project building
+
+4/4/26 - GDG Event Attend
+5/4/26 - pydanticai
