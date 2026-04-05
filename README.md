@@ -1,5 +1,5 @@
 ﻿# daily_learning 
 
-Golang - tracker.txt
-
-
+Golang 
+Pydanticai 
+Langchain tools
