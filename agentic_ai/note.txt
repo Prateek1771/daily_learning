@@ -1,0 +1,45 @@
+Here's your LinkedIn post, the demo video URL, and questions to ask.
+
+---
+LinkedIn post:
+
+▎ 🚀 Just built a mini project: turn any YouTube video into an interactive learning bot!
+▎
+▎ Paste a YouTube URL and the app:
+▎ 📺 Extracts the video details & full transcript
+▎ 🧠 Generates a structured analysis — summary, key topics, takeaways, and target audience
+▎ 💬 Spins up a chatbot that answers your questions, grounded entirely in the video's transcript
+▎
+▎ What I used and learned along the way:
+▎ 🔗 LangChain — LLM calls with structured output (Pydantic schemas driving the LLM's response format)
+▎ 🕸️ LangGraph — an analyze → chat workflow with checkpointed memory, so each video gets its own conversation thread
+▎ ✅ Pydantic — input validation and type-safe models end to end
+▎ 🎨 Streamlit — a clean interactive chat UI in under 100 lines
+▎
+▎ No vector database, no paid APIs — just a free open model via OpenRouter and YouTube's own transcript data. Sometimes the simplest architecture teaches you the most.
+▎
+▎ Loving how LangGraph makes stateful AI workflows feel natural. Next up: streaming responses and RAG for longer videos.
+▎
+▎ #LangChain #LangGraph #Pydantic #Streamlit #GenAI #AIEngineering #BuildInPublic #Python
+
+---
+Demo video URL (the one the project was tested with — 3Blue1Brown's "But what is a neural network?"):
+
+https://www.youtube.com/watch?v=aircAruvnKk
+
+Questions you can ask the chatbot about this video (all answerable from its transcript):
+
+1. What is this video about in one sentence?
+2. What activation function does the video mention besides sigmoid?
+3. How many neurons are in the input layer, and why that number?
+4. What does a "weight" and a "bias" mean in this network?
+5. How does the video explain what the hidden layers are supposed to detect?
+6. What dataset is used for the digit recognition example?
+7. Why does the video say the network is "just a function"?
+8. How many total weights and biases does the example network have?
+9. What role does the sigmoid function play in squishing values?
+10. What does the video say the next video in the series will cover?
+
+To demo it: cd agentic_ai && uv run streamlit run youtube_chatbot/app.py, paste the URL, hit Analyze, and screen-record a couple of those questions for the post.
+
+✻ Sautéed for 19s

@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# go
+*.exe
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
