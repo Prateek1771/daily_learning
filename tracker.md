@@ -20,3 +20,9 @@
 
 4/4/26 - GDG Event Attend
 5/4/26 - pydanticai
+
+## 13/7/26 - langgraph brush-up
+agentic_ai - 01 to 06 
+
+## 14/7/26 - langgraph brush-up
+agentic_ai - 06 to 12
