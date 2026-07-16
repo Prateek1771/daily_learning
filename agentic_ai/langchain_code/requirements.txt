@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-core
+langchain-OpenRouter
+requests
+tavily-python
+python-dotenv
+langchainhub
+streamlit
