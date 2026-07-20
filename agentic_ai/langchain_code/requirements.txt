@@ -1,9 +1,9 @@
-langchain
-langchain-community
-langchain-core
-langchain-OpenRouter
 requests
 tavily-python
 python-dotenv
-langchainhub
 streamlit
+langchain==0.1.16
+langchain-community==0.0.32
+langchain-core==0.1.42
+requests==2.31.0
+langchainhub
