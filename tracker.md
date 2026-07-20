@@ -27,3 +27,5 @@ agentic_ai - 01 to 06
 ## 14/7/26 - langgraph brush-up
 agentic_ai - 06 to 12
 asyncronous
+
+Updating with guardrails and production_rag
