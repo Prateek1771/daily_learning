@@ -29,3 +29,4 @@ agentic_ai - 06 to 12
 asyncronous
 
 Updating with guardrails and production_rag
+Secure guardrails with nemo guardrails
