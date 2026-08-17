@@ -95,7 +95,7 @@ _Round 7._
 What does it actually verify?
 
 <!--
-    - `return a - b` → pytest output (actual vs expected) while ruff + mypy stay green on it
+    - `return a - b` → pytest oum  tput (actual vs expected) while ruff + mypy stay green on it
     - then the test edited to agree with the broken code → it passes
     - what did that passing test prove? what does a passing test mean?
 -->
